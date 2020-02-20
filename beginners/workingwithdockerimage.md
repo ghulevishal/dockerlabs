@@ -138,12 +138,12 @@ The [REPOSITORY[:TAG]] value must be an “exact match”.
 
 ## Contributor
 
-[Ajeet Singh Raina](ajeetraina@gmail.com)
+[Ajeet Singh Raina](mailto:ajeetraina@gmail.com)
 
 
 ## Supported architectures: (more info)
 amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x, windows-amd64
 
 
-[Next: Saving Images and Containers as Tar Files for Sharing](https://github.com/collabnix/dockerlabs/blob/master/beginners/saving-images-as-tar/README.md)
+[Next: Saving Images and Containers as Tar Files for Sharing](http://dockerlabs.collabnix.com/beginners/saving-images-as-tar/)
 

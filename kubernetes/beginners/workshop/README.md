@@ -21,6 +21,28 @@
 
 [Creating a Deployment with 3 replicas of NGINX service](https://github.com/collabnix/dockerlabs/blob/master/kubernetes/beginners/workshop/lab03-creating-deployment-3replicas-nginx)<br>
 
+## Lab #05 Deployments, Rolling Updates and Rollbacks
+[ creating deployement nginx with 2 replicals ] <br> 
+[ Rolling update of nginx application via two methods] <br> 
+[ Rolling out deployement with revision ] <br>
+
+## Lab #06 Service Networking
+## Lab #07 Ingress for kubernetes 
+## lab #08 Deploying a Load Balancer
+## lab #09 Configure and Use Cluster DNS
+## lab #10 Persistent Storage
+## lab #11 Kubernetes Self-Healing
+## lab #12 Liveness Probes in Kubernetes
+## lab #13 Auto-Scaling
+## lab #14 Horizontal Pod Auto-Scaling
+## lab #15 monitoring 
+
+
+## Using Helm
+
+[Installing Helm](https://github.com/collabnix/dockerlabs/blob/master/kubernetes/beginners/workshop/helm/getting-started.md)<br>
+[Installing WordPress using Helm on PWK](https://github.com/collabnix/dockerlabs/blob/master/kubernetes/beginners/workshop/helm/installing-wordpress.md)<br>
+
 # Tips & Tricks
 
 ## #1: My system rebooted and now the ```kubectl get nodes``` is unable to display my K8s nodes. What shall I do?

@@ -35,15 +35,16 @@ description: collabnix | DockerLab | Docker - Beginners Track
 # Installing, Upgrading & Maintaining Docker 
 
 - Installing Docker on 
-   - [Linux](./beginners/install)
+   - [Linux](./install/README.md)
    - [Windows](./install/windows/docker-desktop-for-windows/README.md)
-   - [IoT Platform](./raspberrypi3)
+   - [IoT Platform](./install/raspberrypi3/README.md)
      - [How to install Docker 18.09.0 on Raspberry Pi 3?](./install/raspberrypi3/README.md)
      - [How to setup Docker Swarm Cluster on Raspberry Pi](./install/raspberrypi3/setting-up-swarm-cluster.md)
+     - [How to install Docker 19.03 on NVIDIA Jetson Nano](https://github.com/collabnix/dockerlabs/tree/master/beginners/install/jetson-nano)
      - [Building up K3s Cluster on Raspberry Pi 3 Nodes](./install/raspberrypi3/setting-up-k3s-cluster.md)
      - [How to monitor a Docker Swarm with Blinkt! LED using Raspberry Pi 3](./install/raspberrypi3/monitor-docker-swarm-using-blinkt.md)
      - [Docker on Arduino Uno & Johnny Five](./install/raspberrypi3/Docker-IOT_Using_Arduino_Uno_and_Johnny-Five.md)
-- [Compiling Your Own Docker Binary from Source](./beginners/compiling-docker-from-source.md)
+- [Compiling Your Own Docker Binary from Source](./install/from-source/README.md)
 - [Upgrading Docker from CE to EE](./upgrade-1809ce-1809ee/README.md)
 
 
@@ -52,11 +53,11 @@ description: collabnix | DockerLab | Docker - Beginners Track
 - [Docker Client-Server Architecture](./components/server_client.md)
 - [Docker Daemon](./components/daemon/README.md)
   - [How to open Docker Daemon to External world?](./components/daemon/access-daemon-externally.md)
-- What is a Docker Image?
+- [What is a Docker Image?](./imagelayers.md)
   - [Building Your own Docker Image from Scratch](./building-docker-image-from-scratch.md)
 - [What is Docker Container?](./components/what-is-container.md)
 - [Difference between Docker Image Vs Docker Container?](./components/container-vs-image.md)
-- What is Docker registry?
+- [What is Docker registry?](./dockertrustedregistry.md)
   - [Building a Private Docker Registry](./build-private-docker-registry.md)
   - [Building a Private Docker Registry using Portus](./portus/README.md)
 
@@ -66,7 +67,7 @@ description: collabnix | DockerLab | Docker - Beginners Track
 - [Running Hello World Example](./helloworld/README.md)
 - [Working with Docker Image](./workingwithdockerimage.md) 
   - [Saving Images and Containers as Tar Files for Sharing](./saving-images-as-tar/README.md) 
-  - [Versioning an Image with Tags](./versioning-an-image-with-tags/README.md)
+  - [Versioning an Image with Tags](./versioning-an-image-with-tags.md)
 - [Building Your First Alpine Docker Image and Push it to DockerHub](./building-your-first-alpine-container.md)
 - [Building Docker Image from Scratch](./building-docker-image-from-scratch.md)
 - [Creating Docker Base Image](./create-base-image.md)
@@ -103,15 +104,12 @@ description: collabnix | DockerLab | Docker - Beginners Track
 
  - [Using Docker Networks](./using-docker-network.md)<br>
 
-# FAQs
-
-[How to Run Multiple Python Versions on a Docker Host System]()
-  
 
 
 
 
- [Proceed >> What is Docker?](./beginners/docker/what-is-docker.md)
+
+ [Proceed >> What is Docker?](http://dockerlabs.collabnix.com/beginners/docker/what-is-docker.html)
 
 
 
@@ -119,4 +117,4 @@ description: collabnix | DockerLab | Docker - Beginners Track
 
 
 
-[back](./)
+[back](http://dockerlabs.collabnix.com)
